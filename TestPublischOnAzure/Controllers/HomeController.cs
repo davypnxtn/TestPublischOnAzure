@@ -13,7 +13,7 @@ namespace TestPublischOnAzure.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            var welkomtekst = "Welkom Davy";
+            var welkomtekst = "Welkom Davy!";
             ViewData["welkom"] = welkomtekst;
             return View();
         }
